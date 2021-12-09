@@ -1,7 +1,11 @@
 package fr.lernejo.chat;
 
-import java.util.*;
+import org.springframework.stereotype.Repository;
 
+import java.util.LinkedList;
+import java.util.List;
+
+@Repository
 public class ChatMessageRepository {
 
     List<String> messageList = new LinkedList<>();
